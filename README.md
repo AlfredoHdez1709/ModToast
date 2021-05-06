@@ -38,4 +38,27 @@ Style basic
                 implementation 'com.github.AlfredoHdez1709:ModToast:0.1'
         }
 
-## Implementation
+## Implementation   
+   #### Basic implementation
+   
+        ModToast("This is ModToast", 0)
+
+   #### Full implementation
+        
+        ModToast("This is ModToast", 
+                0, 
+                ModToast.FLAT, 
+                android.R.color.black, 
+                android.R.color.white ,
+                R.drawable.ic_android_black_24dp)
+                
+## Attributes
+
+| Attributes     	| Type     	| isRequired 	| Note                      	|
+|----------------	|----------	|------------	|---------------------------	|
+| text           	| String   	| True       	|                           	|
+| duration       	| int      	| True       	| 0 = SHORT<br><br>1 = LONG 	|
+| style          	| ModToast 	| False      	| ROUND<br>FLAT<br>BORDER   	|
+| backgroundTint 	| int/null 	| False      	| Index for resource        	|
+| textColor      	| int/null 	| False      	| Index for resource        	|
+| imageRes       	| int/null 	| False      	| Index for resource        	|
