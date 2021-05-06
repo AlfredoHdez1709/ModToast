@@ -54,11 +54,11 @@ Style basic
                 
 ## Attributes
 
-| Attributes     	| Type     	| isRequired 	| Note                      	|
-|----------------	|----------	|------------	|---------------------------	|
-| text           	| String   	| True       	|                           	|
-| duration       	| int      	| True       	| 0 = SHORT<br><br>1 = LONG 	|
-| style          	| ModToast 	| False      	| ROUND<br>FLAT<br>BORDER   	|
-| backgroundTint 	| int/null 	| False      	| Index for resource        	|
-| textColor      	| int/null 	| False      	| Index for resource        	|
-| imageRes       	| int/null 	| False      	| Index for resource        	|
+|   Attributes   	|   Type   	| isRequired 	|            Note           	|
+|:--------------:	|:--------:	|:----------:	|:-------------------------:	|
+|      text      	|  String  	|    True    	|                           	|
+|    duration    	|    int   	|    True    	| 0 = SHORT<br><br>1 = LONG 	|
+|      style     	| ModToast 	|    False   	|  ROUND<br>FLAT<br>BORDER  	|
+| backgroundTint 	| int/null 	|    False   	|     Index for resource    	|
+|    textColor   	| int/null 	|    False   	|     Index for resource    	|
+|    imageRes    	| int/null 	|    False   	|     Index for resource    	|
