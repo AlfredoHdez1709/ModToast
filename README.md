@@ -7,6 +7,17 @@ Quickly and easily create a custom toast on Android
 ## ScreenShoot
 
 
+![](https://s3.gifyu.com/images/modtoast_01.gif)
+
+![](https://s3.gifyu.com/images/modtoast_02.gif)
+
+![](https://s3.gifyu.com/images/modtoast_03.gif)
+
+![](https://s3.gifyu.com/images/modtoast_04.gif)
+
+
+
+
 ### Add it in your root build.gradle at the end of repositories:
 
     allprojects {
