@@ -39,7 +39,7 @@ As it is used in the SDK 30 version, the basic version is implemented, due to di
 ### Add the dependency
 
       dependencies {
-                implementation 'com.github.AlfredoHdez1709:ModToast:0.1'
+                implementation 'com.github.AlfredoHdez1709:ModToast:1.0.0'
         }
 
 ## Implementation   
