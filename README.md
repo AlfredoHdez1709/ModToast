@@ -22,6 +22,10 @@ Style basic
 
 ![](https://s3.gifyu.com/images/modtoast_04.gif)
 
+#### NOTE
+
+As it is used in the SDK 30 version, the basic version is implemented, due to disuse of some functions. I am working to have a custom toast in this version
+
 ## Integration
 
 ### Add it in your root build.gradle at the end of repositories:
